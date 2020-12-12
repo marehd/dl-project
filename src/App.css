@@ -1,8 +1,107 @@
-.App {
-  text-align: center;
+/*body, html {
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
+.App {
+  background-image: url('images/background_image.jpg');
+  height: 100vh; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box {
+  height: 300px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-image: url('images/post_background.jpeg');
+
+}*/
+
+html { 
+  /*background: url('images/shower_background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+  
+  background: -webkit-linear-gradient(rgba(74, 160, 225, 0.1), rgba(0, 58, 120, 0.3)), url('images/shower_background.jpg') no-repeat center center fixed; 
+  background: rgb(177, 196, 211);
+  background: linear-gradient(rgba(74, 160, 225, 0.1), rgba(0, 58, 120, 0.3)), url('images/shower_background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  height: 160px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  margin-top: 1.3vh;
+  border-radius: 0.75vh;
+  border-width: 1px;
+  border-color: rgb(222, 222, 222);
+  border-style: solid;
+}
+
+button {
+  color: white;
+  background-color: #0079D3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-right: 0.5vw;
+  cursor: pointer;
+  border-style: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(161, 214, 254);
+}
+
+#button {
+  /*margin-left: 0.5vw;
+  margin-right: 0.5vw;*/
+}
+
+#generator-title {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#generated-post {
+  display: inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(50, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +134,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
