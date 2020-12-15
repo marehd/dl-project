@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dl-project/static/css/main.acd1a2fb.chunk.css",
+    "main.css": "/dl-project/static/css/main.dc019b19.chunk.css",
     "main.js": "/dl-project/static/js/main.2a510cc6.chunk.js",
     "main.js.map": "/dl-project/static/js/main.2a510cc6.chunk.js.map",
     "runtime-main.js": "/dl-project/static/js/runtime-main.6251db79.js",
@@ -10,7 +10,7 @@
     "static/js/3.19ff9217.chunk.js": "/dl-project/static/js/3.19ff9217.chunk.js",
     "static/js/3.19ff9217.chunk.js.map": "/dl-project/static/js/3.19ff9217.chunk.js.map",
     "index.html": "/dl-project/index.html",
-    "static/css/main.acd1a2fb.chunk.css.map": "/dl-project/static/css/main.acd1a2fb.chunk.css.map",
+    "static/css/main.dc019b19.chunk.css.map": "/dl-project/static/css/main.dc019b19.chunk.css.map",
     "static/js/2.d03f2f26.chunk.js.LICENSE.txt": "/dl-project/static/js/2.d03f2f26.chunk.js.LICENSE.txt",
     "static/media/esteban.b67b72fd.jpeg": "/dl-project/static/media/esteban.b67b72fd.jpeg",
     "static/media/graph.8448ca84.png": "/dl-project/static/media/graph.8448ca84.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.6251db79.js",
     "static/js/2.d03f2f26.chunk.js",
-    "static/css/main.acd1a2fb.chunk.css",
+    "static/css/main.dc019b19.chunk.css",
     "static/js/main.2a510cc6.chunk.js"
   ]
 }
